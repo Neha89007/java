@@ -1,0 +1,11 @@
+Question 1:
+ (d) compile time error
+ 
+Question 2:
+ (b) 1 2 3
+ 
+Question 3:
+ (c) compile time error
+		Beacuse we did not create a foo and bar class
+		and in main method object creation syntax is 
+		also wrong.
