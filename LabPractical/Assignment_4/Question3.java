@@ -19,7 +19,7 @@ class override
 {
   public static void main (String[]args)
   {
-    Managerobj = new Manager ();
+    Manager obj = new Manager ();
     obj.interst ();
   }
 }
