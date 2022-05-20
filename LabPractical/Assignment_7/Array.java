@@ -1,6 +1,6 @@
 public class Main 
 {
-    public static int removeduplicates(int a[], int n)
+    public static int remove(int a[], int n)
     {
         if (n == 0 || n == 1) 
         {
@@ -30,7 +30,7 @@ public class Main
         int a[] = { 1, 1, 2, 2, 2 };
         int n = a.length;
   
-        n = removeduplicates(a, n);
+        n = remove(a, n);
         
         for (int i = 0; i < n; i++)
             System.out.print(a[i] + " ");
