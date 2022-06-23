@@ -36,7 +36,7 @@ public class Student_Main
 		  
 		  System.out.println(" MARKS");
 		  
-		  Arrays.sort(arr);
+		  Arrays.sort(arr, new Marks_Comparator());
 		  
 		  for(Student s : arr)
 		  {
