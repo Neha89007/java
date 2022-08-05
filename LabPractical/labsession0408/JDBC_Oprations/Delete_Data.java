@@ -29,11 +29,11 @@ public class Delete_Data
 			System.out.println("Connection Established");
 			
 			System.out.println("Enter marks to delete: ");
-			int marks=sc.nextInt();
-			pstmt.setInt(1, marks);
+			int mar=sc.nextInt();
+			pstmt.setInt(1, mar);
 			
 			pstmt.executeUpdate();
-			System.out.println("student with marks" + marks + "has been deleted from database");
+			System.out.println("student with marks" + mar + "has been deleted from database");
 	}
 		catch(ClassNotFoundException | SQLException e)
 		{
